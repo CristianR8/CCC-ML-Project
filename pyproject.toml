@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chagas-ml"
+version = "0.1.0"
+description = "Notebook-to-python refactor for Chagas ML experiments"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+  "scikit-learn",
+  "imbalanced-learn",
+  "matplotlib",
+  "seaborn",
+  "xgboost",
+  "lightgbm",
+  "catboost",
+  "pyswarms",
+  "sdv",
+  "DataSynthesizer",
+  "scikit-fuzzy",
+  "openpyxl",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

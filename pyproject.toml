@@ -12,6 +12,7 @@ dependencies = [
   "pandas",
   "numpy",
   "scikit-learn",
+  "scikit-survival",
   "imbalanced-learn",
   "matplotlib",
   "seaborn",

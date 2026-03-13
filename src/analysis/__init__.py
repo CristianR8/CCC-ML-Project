@@ -9,6 +9,9 @@ from .exploration import (
     pca_before_after_sampling,
     isomap_before_after_sampling,
 )
+from .cox_regressor import (
+    lasso_cox_cv, nonzero_coefs, coef_to_hr
+)
 
 __all__ = [
     "plot_all_correlation_subplots",
@@ -18,4 +21,7 @@ __all__ = [
     "lda_projection",
     "pca_before_after_sampling",
     "isomap_before_after_sampling",
+    "lasso_cox_cv",
+    "nonzero_coefs",
+    "coef_to_hr"
 ]

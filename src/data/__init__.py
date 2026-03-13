@@ -7,6 +7,7 @@ from .preprocessing import (
     build_full_columns_dataset,
     build_mean_imputed_dataset,
     train_val_test_split,
+    plot_original_column_names,
 )
 
 __all__ = [
@@ -16,4 +17,5 @@ __all__ = [
     "build_full_columns_dataset",
     "build_mean_imputed_dataset",
     "train_val_test_split",
+    "plot_original_column_names",
 ]

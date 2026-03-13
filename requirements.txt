@@ -1,6 +1,7 @@
 pandas
 numpy
 scikit-learn
+scikit-survival
 imbalanced-learn
 matplotlib
 seaborn
@@ -12,3 +13,5 @@ sdv
 DataSynthesizer
 scikit-fuzzy
 openpyxl
+scikit-survival
+lifelines 
